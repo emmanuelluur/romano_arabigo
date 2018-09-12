@@ -20,6 +20,7 @@ function Romano($largo, $entrada)
                 break;
             case 'C':
                 /**
+		 * Equivale a 100
                  * Si delante esta D restamos 1 para hacerlo 400
                  * Si delante esta M restamos 1 para hacerlo 900
                  */
@@ -35,6 +36,7 @@ function Romano($largo, $entrada)
                 break;
             case 'X':
                 /**
+		 * Equivale a 10
                  * Si delante esta L restamos 10 para hacerlo 40
                  * Si delante esta C restamos 10 para hacerlo 90
                  */
